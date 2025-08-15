@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>St.Mary's Church</title>
-  <style>
-    body {
+body {
       margin: 0;
       font-family: 'Segoe UI', Arial, sans-serif;
       background: linear-gradient(120deg, #f2e9e1 0%, #cde7f0 100%);
@@ -125,58 +118,58 @@
       section, .carousel, .tab-content { padding: 1rem; }
       .gallery img { width: 90vw; height: 130px; }
     }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>St.Mary's Church</h1>
-    <p>Minimal Institutional Website</p>
-  </header>
+  
 
-  <!-- Carousel Section -->
-  <div class="carousel" id="carousel">
-    <img id="carouselImg" src="stmarys1.jpg" alt="Institution Highlights">
-    <div class="carousel-buttons">
-      <button class="carousel-button" onclick="prevSlide()">&#8249;</button>
-      <button class="carousel-button" onclick="nextSlide()">&#8250;</button>
-    </div>
-  </div>
 
-  <!-- Tabs Section -->
-  <div class="tabs">
-    <div class="tab-buttons">
-      <button class="tab-button active" onclick="showTab(0)">About</button>
-      <button class="tab-button" onclick="showTab(1)">Gallery</button>
-      <button class="tab-button" onclick="showTab(2)">Contact</button>
-    </div>
-    <div class="tab-content active">
-      <h2>About Us</h2>
-      <p>
-        Our institution is dedicated to empowering students and the community through quality education, creativity, and collaboration.<br>
+  
+    St. Mary's Church
+    Minimal Institutional Website
+  
+
+  
+  
+    
+    
+      &#8249;
+      &#8250;
+    
+  
+
+  
+  
+    
+      About
+      Gallery
+      Contact
+    
+    
+      About Us
+      
+        Our institution is dedicated to empowering students and the community through quality education, creativity, and collaboration.
         We offer programs and resources designed to foster growth, innovation, and lifelong learning.
-      </p>
-    </div>
-    <div class="tab-content">
-      <h2>Gallery</h2>
-      <div class="gallery">
-        <img src="gallery-image1.jpg" alt="Gallery 1">
-        <img src="gallery-image2.jpg" alt="Gallery 2">
-        <img src="gallery-image3.jpg" alt="Gallery 3">
-        <!-- Add more images as needed -->
-      </div>
-    </div>
-    <div class="tab-content">
-      <h2>Contact Us</h2>
-      <ul class="contact-list">
-        <li>Email: info@institution.edu</li>
-        <li>Phone: +1 234 567 8900</li>
-        <li>Address: 123 Pastel Avenue, City, State</li>
-      </ul>
-    </div>
-  </div>
+      
+    
+    
+      Gallery
+      
+        
+        
+        
+        
+      
+    
+    
+      Contact Us
+      
+        Email: info@institution.edu
+        Phone: +1 234 567 8900
+        Address: 123 Pastel Avenue, City, State
+      
+    
+  
 
-  <!-- Simple JS for Carousel and Tabs -->
-  <script>
+  
+  
     // Carousel functionality
     const images = [
       "your-carousel-image1.jpg",
@@ -202,6 +195,3 @@
         tabContents[i].classList.toggle('active', i === index);
       });
     }
-  </script>
-</body>
-</html>
